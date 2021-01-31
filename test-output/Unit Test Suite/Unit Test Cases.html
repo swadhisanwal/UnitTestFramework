@@ -1,0 +1,439 @@
+<html>
+<head>
+<title>TestNG:  Unit Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Unit Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 31 22:20:30 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (199 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest1()'><b>addTest1</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest1()'><b>addTest1</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest1()'><b>addTest1</b><br>Test class: com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest@534a5a98</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest1()'><b>addTest1</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest2()'><b>addTest2</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest2()'><b>addTest2</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest2()'><b>addTest2</b><br>Test class: com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest@534a5a98</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest2()'><b>addTest2</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest3()'><b>addTest3</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest3()'><b>addTest3</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest3()'><b>addTest3</b><br>Test class: com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest@534a5a98</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest3()'><b>addTest3</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest4()'><b>addTest4</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest4()'><b>addTest4</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest4()'><b>addTest4</b><br>Test class: com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest@534a5a98</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest4()'><b>addTest4</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest5()'><b>addTest5</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest5(AddFunctionTest.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1957561023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957561023'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest5(AddFunctionTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest5()'><b>addTest5</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest5(DivideFunctionTest.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1931161713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1931161713'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest5(DivideFunctionTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest5()'><b>addTest5</b><br>Test class: com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest5(MultiplyFunctionTest.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace527902330", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace527902330'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest.addTest5(MultiplyFunctionTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest@534a5a98</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest5()'><b>addTest5</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest5(SubtractFunctionTest.java:50)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace880227614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace880227614'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest5(SubtractFunctionTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest6()'><b>addTest6</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest6(AddFunctionTest.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1941265153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1941265153'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest6(AddFunctionTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest6()'><b>addTest6</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest6(DivideFunctionTest.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace994319779", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace994319779'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest6(DivideFunctionTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest6()'><b>addTest6</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest6(SubtractFunctionTest.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1980541695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1980541695'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest6(SubtractFunctionTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest7()'><b>addTest7</b><br>Test class: com.unitTestArithmetic.qa.testcases.AddFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest7(AddFunctionTest.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4589877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4589877'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.AddFunctionTest.addTest7(AddFunctionTest.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.AddFunctionTest@1ed6388a</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest7()'><b>addTest7</b><br>Test class: com.unitTestArithmetic.qa.testcases.DivideFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest7(DivideFunctionTest.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace93699249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace93699249'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.DivideFunctionTest.addTest7(DivideFunctionTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.DivideFunctionTest@5a45133e</td></tr>
+<tr>
+<td title='com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest7()'><b>addTest7</b><br>Test class: com.unitTestArithmetic.qa.testcases.SubtractFunctionTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest7(SubtractFunctionTest.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2058523741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2058523741'><pre>java.lang.ArithmeticException: / by zero
+	at com.unitTestArithmetic.qa.testcases.SubtractFunctionTest.addTest7(SubtractFunctionTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.unitTestArithmetic.qa.testcases.SubtractFunctionTest@4f80542f</td></tr>
+</table><p>
+</body>
+</html>

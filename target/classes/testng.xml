@@ -1,0 +1,18 @@
+<?xml version ='1.0' encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= "Unit Test Suite" thread-count="1" parallel="methods">
+
+ <listeners>
+        <listener 
+        class-name="com.unitTestArithmetic.qa.ExtentReport.Listener.ExtentReporter"/>
+  </listeners>
+
+<test name="Unit Test Cases">
+     <classes>
+       <class name="com.unitTestArithmetic.qa.testcases.AddFunctionTest"/>
+       <class name="com.unitTestArithmetic.qa.testcases.DivideFunctionTest"/>
+       <class name="com.unitTestArithmetic.qa.testcases.MultiplyFunctionTest"/>
+       <class name="com.unitTestArithmetic.qa.testcases.SubtractFunctionTest"/>
+     </classes>
+   </test>
+</suite>

@@ -1,0 +1,27 @@
+2021-01-31 22:20:30,748  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:20 - 5
+2021-01-31 22:20:30,760  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:27 - 1
+2021-01-31 22:20:30,765  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:34 - -8
+2021-01-31 22:20:30,771  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:41 - 0
+2021-01-31 22:20:30,791  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:20 - 0
+2021-01-31 22:20:30,796  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:27 - -2
+2021-01-31 22:20:30,801  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:34 - 0
+2021-01-31 22:20:30,806  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:41 - Divide by zero gives infinity as result
+2021-01-31 22:20:30,806  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:41 - 0
+2021-01-31 22:20:30,828  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:22 - 6
+2021-01-31 22:20:30,832  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:29 - -18
+2021-01-31 22:20:30,837  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:36 - 105
+2021-01-31 22:20:30,847  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:43 - 0
+2021-01-31 22:20:30,855  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:23 - 2
+2021-01-31 22:20:30,860  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:30 - -5
+2021-01-31 22:20:30,863  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:37 - 22
+2021-01-31 22:20:30,868  INFO [TestNG-test=Unit Test Cases-1] MathFunctions:44 - 0
+2021-01-31 22:20:31,214 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-01-31 22:20:31,215 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-01-31 22:20:31,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-01-31 22:20:31,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-01-31 22:20:31,219 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/SSanwal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-01-31 22:20:31,616 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-01-31 22:20:31,617 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-01-31 22:20:31,617 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-01-31 22:20:31,617 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-01-31 22:20:31,618 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/SSanwal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
